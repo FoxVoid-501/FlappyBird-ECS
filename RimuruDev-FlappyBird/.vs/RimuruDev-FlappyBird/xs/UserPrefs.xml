@@ -1,11 +1,44 @@
 ﻿<Properties StartupConfiguration="{CEBAF892-D69B-C9DC-BF64-3725D5DD1769}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/InternalAssets/LeoECS/EcsInit.cs">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="14ddba76-6f05-479e-9402-62ea9eefabe5" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/InternalAssets/LeoECS/Systems/SaveBestScoreSystem.cs">
     <Files>
-      <File FileName="Assets/InternalAssets/LeoECS/AddPopup.cs" Line="1" Column="1" />
-      <File FileName="Assets/InternalAssets/LeoECS/EcsInit.cs" Line="65" Column="31" />
-      <File FileName="Assets/InternalAssets/Scripts/Core/GameDataContainer.cs" Line="9" Column="25" />
-      <File FileName="Assets/InternalAssets/LeoECS/UpdateUIText.cs" Line="6" Column="20" />
+      <File FileName="Assets/InternalAssets/LeoECS/SaveScoreSystem.cs" Line="27" Column="14" IsPinned="True" />
+      <File FileName="Assets/InternalAssets/LeoECS/AddPopup.cs" Line="34" Column="1" />
+      <File FileName="Assets/InternalAssets/LeoECS/EcsInit.cs" Line="59" Column="15" />
+      <File FileName="Assets/InternalAssets/Scripts/Core/GameDataContainer.cs" Line="45" Column="27" />
+      <File FileName="Assets/InternalAssets/LeoECS/UpdateUIText.cs" Line="10" Column="40" />
       <File FileName="Assets/InternalAssets/Prefabs/Birds/RedBird.prefab" Line="1" Column="1" />
+      <File FileName="Assets/InternalAssets/LeoECS/UI.cs" Line="3" Column="21" />
+      <File FileName="Assets/InternalAssets/LeoECS/ScoreText.cs" Line="5" Column="21" />
+      <File FileName="Assets/InternalAssets/LeoECS/LoadBestScoreSystem.cs" Line="27" Column="1" />
+      <File FileName="Assets/InternalAssets/LeoECS/LoadScoreSystem.cs" Line="19" Column="49" />
+      <File FileName="Assets/InternalAssets/LeoECS/DeathSystem.cs" Line="95" Column="1" />
+      <File FileName="Assets/InternalAssets/LeoECS/Popup.cs" Line="5" Column="21" />
+      <File FileName="Assets/InternalAssets/LeoECS/ScoreComponent.cs" Line="1" Column="1" />
+      <File FileName="Assets/InternalAssets/LeoECS/SaveBestScoreSystem.cs" Line="34" Column="1" />
+      <File FileName="Assets/InternalAssets/LeoECS/PopupSpawnTimer.cs" Line="20" Column="38" />
+      <File FileName="Assets/InternalAssets/LeoECS/InitializeBirdDataSystem.cs" Line="1" Column="1" />
+      <File FileName="Assets/InternalAssets/LeoECS/TimerPipeGeneratorSystem.cs" Line="1" Column="1" />
+      <File FileName="Assets/InternalAssets/LeoECS/TimerForSaveScore.cs" Line="1" Column="1" />
+      <File FileName="Assets/InternalAssets/LeoECS/PopupTimer.cs" Line="1" Column="1" />
+      <File FileName="Assets/InternalAssets/LeoECS/PipeSettingsProvider.cs" Line="1" Column="1" />
+      <File FileName="Assets/InternalAssets/LeoECS/PipeSettingsComponent.cs" Line="1" Column="1" />
+      <File FileName="Assets/InternalAssets/LeoECS/PipeGenerationComponent.cs" Line="1" Column="1" />
+      <File FileName="Assets/InternalAssets/LeoECS/PipeGenerationSystemProvider.cs" Line="1" Column="1" />
+      <File FileName="Assets/InternalAssets/LeoECS/PipeGenerationProvider.cs" Line="1" Column="1" />
+      <File FileName="Assets/InternalAssets/LeoECS/PipeGenerationTimer.cs" Line="1" Column="1" />
+      <File FileName="Assets/InternalAssets/LeoECS/PipeGeneratorSystem.cs" Line="1" Column="1" />
+      <File FileName="Assets/InternalAssets/LeoECS/BestScoreCompopent.cs" Line="1" Column="1" />
+      <File FileName="Assets/InternalAssets/LeoECS/PerformDeathEvent.cs" Line="1" Column="1" />
+      <File FileName="Assets/InternalAssets/LeoECS/PipeSpawnTag.cs" Line="1" Column="1" />
+      <File FileName="Assets/InternalAssets/LeoECS/PipeSpawnTagProvider.cs" Line="1" Column="1" />
+      <File FileName="Assets/InternalAssets/LeoECS/TimerForSaveScoreSystem.cs" Line="1" Column="1" />
+      <File FileName="Assets/InternalAssets/LeoECS/TimerForSaveBestScore.cs" Line="3" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,12 +46,7 @@
           <Node name="RimuruDev-FlappyBird" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="InternalAssets" expanded="True">
-                <Node name="LeoECS" expanded="True">
-                  <Node name="EcsInit.cs" selected="True" />
-                </Node>
-                <Node name="Prefabs" expanded="True">
-                  <Node name="Birds" expanded="True" />
-                </Node>
+                <Node name="LeoECS" expanded="True" />
                 <Node name="Scripts" expanded="True">
                   <Node name="Core" expanded="True" />
                 </Node>
@@ -37,11 +65,5 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="fbaea78c-47c3-4faa-9344-84516ac7776e" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
 </Properties>
