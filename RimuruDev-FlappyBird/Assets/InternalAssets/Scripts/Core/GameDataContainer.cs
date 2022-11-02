@@ -45,7 +45,7 @@ namespace RimuruDev.Core
         public GameObject failurePanel;
 
         [Header("Runtime")]
-        public GameObject birtClone;
+        public GameObject birdClone;
         public Rigidbody2D birdRigidbody2DClone;
         public BirdCharacterController birdCharacterController;
         public PipeGeneratorController pipeGeneratorController;
